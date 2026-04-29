@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الخدمات</title>
+    <style>
+        /* إعدادات الصفحة العامة للحفاظ على شكل التصميم */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* خلفية بيضاء ليتناسب مع صورك */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: sans-serif;
+        }
+
+        .main-wrapper {
+            width: 100%;
+            max-width: 600px; /* مقاس عرض مثالي لمطابقة أبعاد الصورة */
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        /* تنسيق الصورة رقم 1 */
+        .section-header {
+            margin-bottom: 20px;
+        }
+
+        /* تنسيق الصور 2 و 3 (جنباً إلى جنب) */
+        .section-middle {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* تنسيق الصورة رقم 4 */
+        .section-services-title {
+            margin-bottom: 15px;
+        }
+
+        /* تنسيق الصور 5 و 6 (أيقونات التواصل) */
+        .section-footer-links {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .section-footer-links a {
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .section-footer-links a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-wrapper">
+        
+        <div class="section-header">
+            <img src="header.png" alt="تزويد متابعين">
+        </div>
+
+        <div class="section-middle">
+            <img src="about_us.png" alt="معلومات السيرفر">
+            <img src="stats.png" alt="طلبات مكتملة">
+        </div>
+
+        <div class="section-services-title">
+            <img src="services_title.png" alt="الخدمات المتوفرة">
+        </div>
+
+        <div class="section-footer-links">
+            <a href="about:blank" target="_blank">
+                <img src="facebook.png" alt="فيسبوك">
+            </a>
+            
+            <a href="about:blank" target="_blank">
+                <img src="instagram.png" alt="إنستغرام">
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
